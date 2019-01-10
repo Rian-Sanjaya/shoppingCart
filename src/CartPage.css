@@ -1,0 +1,46 @@
+.cartpage-items { 
+    margin: 0; 
+    padding: 0;
+}
+
+.cartpage-items li {
+    list-style-type: none;
+}
+
+.cartItem-count { 
+    padding: 5px 10px; 
+    border: 1px solid #ccc;
+}
+
+.cartItem-addOne,
+.cartItem-removeOne {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #fff; 
+    cursor: pointer;
+}
+
+.cartItem-addOne:hover,
+.cartItem-removeOne:hover {
+    background: #FFDDB2;
+}
+
+.cartItem-addOne { 
+    border-left: none;
+}
+
+.cartItem-removeOne {
+    border-right: none; 
+}
+
+.cartpage-totalCost {
+    text-align: right;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.cartpage-empty {
+    text-align: center;
+    font-size: 1.2rem;
+}
