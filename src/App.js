@@ -6,6 +6,11 @@ import ItemPage from './ItemPage';
 import CartPage from './CartPage';
 
 class App extends Component {
+  // cartItems = [
+  //   {id: 1, name: ..., description: ..., price: ..., count: 2},
+  //   {id: 3, name: ..., description: ..., price: ..., count: 1}
+  // ]
+
   state = {
     activeTab: 0,
     cart: [],
