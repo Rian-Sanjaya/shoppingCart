@@ -38,6 +38,7 @@ const Nav = ({ activeTab, items, onTabChange }) => {
     );
 };
 
+/* eslint-disable */
 class NavLink extends React.Component {
     handleClick = () => {
         this.props.onClick(this.props.index);
@@ -45,9 +46,9 @@ class NavLink extends React.Component {
 
     render() {
         return (
-            <button onClick={this.handleClick}>
+            <a onClick={this.handleClick}>
                 {this.props.children}
-            </button>
+            </a>
         );
     }
 }
