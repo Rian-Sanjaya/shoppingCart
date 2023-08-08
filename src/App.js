@@ -147,7 +147,7 @@ class App extends Component {
   }
 
   render() {
-    let {activeTab, cart} = this.state;
+    let {activeTab} = this.state;
     const cartItems = this.countCartItems();
     // console.log(activeTab);
     return (
