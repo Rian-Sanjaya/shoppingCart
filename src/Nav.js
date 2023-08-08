@@ -45,9 +45,9 @@ class NavLink extends React.Component {
 
     render() {
         return (
-            <a onClick={this.handleClick}>
+            <button onClick={this.handleClick}>
                 {this.props.children}
-            </a>
+            </button>
         );
     }
 }

@@ -7,7 +7,7 @@ function Item ({item, children}) {
         <div className="item">
             <div className="item-left">
                 <div className="item-image">
-                    <img className="item-img" src={item.image} />
+                    <img className="item-img" src={item.image} alt="item" />
                 </div>
                 <div className="item-name">
                     {item.name}
